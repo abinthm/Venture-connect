@@ -1,0 +1,248 @@
+{
+  "id": 5,
+  "companyName": "FinTech Secure",
+  "tagline": "Blockchain-based Payment Solutions",
+  "valuation": 624000000,
+  "description": "FinTech Secure is revolutionizing digital payments through secure blockchain infrastructure. Our platform enables cross-border transactions with 90% lower fees and instant settlement, serving 75+ enterprise clients with cutting-edge security and compliance. We're building the future of financial transactions with transparency, speed, and trust.",
+  "usp": "The only blockchain payment platform offering 90% lower fees, instant settlement, and enterprise-grade security with full regulatory compliance.",
+  "businessModel": "B2B",
+  "category": "FinTech",
+  "website": "https://fintechsecure.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2022",
+  "headquarters": "Mumbai, Maharashtra",
+  "stage": "Seed",
+  "keyMetrics": {
+    "monthlyRevenue": 666667,
+    "annualRevenue": 8000000,
+    "customers": 75,
+    "cashInBank": 72000000,
+    "runway": "18 months",
+    "growthRate": {
+      "revenue": 433,
+      "clients": 15,
+      "transactionVolume": 50
+    }
+  },
+  "financials": {
+    "2022": {
+      "revenue": 1500000,
+      "grossProfit": 1200000,
+      "operatingExpenses": 8000000,
+      "ebitda": -6800000,
+      "depreciation": 200000,
+      "ebit": -7000000,
+      "interestExpense": 100000,
+      "profitBeforeTax": -7100000,
+      "taxExpense": 0,
+      "profitAfterTax": -7100000
+    },
+    "2023": {
+      "revenue": 8000000,
+      "grossProfit": 6400000,
+      "operatingExpenses": 18000000,
+      "ebitda": -11600000,
+      "depreciation": 500000,
+      "ebit": -12100000,
+      "interestExpense": 200000,
+      "profitBeforeTax": -12300000,
+      "taxExpense": 0,
+      "profitAfterTax": -12300000
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 20000000,
+      "grossProfit": 16000000,
+      "ebitda": -5000000
+    },
+    "2025": {
+      "revenue": 50000000,
+      "grossProfit": 40000000,
+      "ebitda": 15000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 80000000,
+    "currentLiabilities": 8000000,
+    "inventory": 0,
+    "accountsReceivable": 3000000,
+    "accountsPayable": 2000000,
+    "totalAssets": 90000000,
+    "totalLiabilities": 10000000,
+    "shareholderEquity": 80000000
+  },
+  "unitEconomics": {
+    "cac": 80000,
+    "ltv": 1600000,
+    "averageSellingPrice": 10667,
+    "grossMargin": 80,
+    "ltvCacRatio": 20
+  },
+  "marketPosition": {
+    "marketShare": 0.5,
+    "brandRecognition": 15,
+    "customerSatisfaction": 85,
+    "totalAddressableMarket": 50000000000000,
+    "serviceableAddressableMarket": 10000000000000
+  },
+  "team": [
+    {
+      "name": "Vikram Joshi",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 40,
+      "bio": "Former Goldman Sachs VP, 15+ years in financial services"
+    },
+    {
+      "name": "Anita Reddy",
+      "role": "CTO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Ex-Coinbase blockchain engineer, MIT Computer Science"
+    },
+    {
+      "name": "Rahul Sharma",
+      "role": "Head of Security",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 10,
+      "bio": "Former Paytm security head, cybersecurity expert"
+    },
+    {
+      "name": "Kavya Patel",
+      "role": "Head of Compliance",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 8,
+      "bio": "Ex-RBI regulatory affairs, fintech compliance specialist"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Jan 2022",
+      "amount": "₹1.2 Cr",
+      "valuation": "₹8 Cr",
+      "leadInvestor": "Crypto Angels",
+      "useOfFunds": "MVP development, regulatory compliance"
+    },
+    {
+      "round": "Seed",
+      "date": "Sep 2023",
+      "amount": "₹8.5 Cr",
+      "valuation": "₹42.5 Cr",
+      "leadInvestor": "Blockchain Ventures",
+      "useOfFunds": "Product scaling, team expansion"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Jan 2022",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Apr 2022",
+      "event": "Blockchain Payment MVP",
+      "type": "product"
+    },
+    {
+      "date": "Jul 2022",
+      "event": "First Enterprise Client",
+      "type": "growth"
+    },
+    {
+      "date": "Sep 2022",
+      "event": "Seed Funding Raised",
+      "type": "funding"
+    },
+    {
+      "date": "Dec 2022",
+      "event": "RBI Compliance Achieved",
+      "type": "regulatory"
+    },
+    {
+      "date": "Mar 2023",
+      "event": "Cross-border Payments Launch",
+      "type": "product"
+    },
+    {
+      "date": "Jun 2023",
+      "event": "50 Enterprise Clients",
+      "type": "growth"
+    },
+    {
+      "date": "Dec 2023",
+      "event": "₹100 Cr Transaction Volume",
+      "type": "growth"
+    }
+  ],
+  "achievements": ["90% Lower Transaction Fees", "Instant Settlement", "75+ Enterprise Clients", "RBI Compliant"],
+  "marketSplit": {
+    "segments": [
+      {
+        "name": "Cross-border Payments",
+        "value": 45,
+        "color": "#0088FE"
+      },
+      {
+        "name": "Domestic Transfers",
+        "value": 30,
+        "color": "#00C49F"
+      },
+      {
+        "name": "Merchant Payments",
+        "value": 15,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "Crypto Exchange",
+        "value": 10,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct Enterprise Sales",
+      "percentage": 55,
+      "revenue": 4400000
+    },
+    {
+      "channel": "API Partnerships",
+      "percentage": 30,
+      "revenue": 2400000
+    },
+    {
+      "channel": "White-label Solutions",
+      "percentage": 15,
+      "revenue": 1200000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "5-minute presentation showcasing our blockchain payment infrastructure and enterprise solutions."
+  },
+  "currentFunding": {
+    "targetRound": "Series A",
+    "targetAmount": "₹25 Cr",
+    "committed": "₹5 Cr",
+    "progress": 20
+  },
+  "investors": [
+    {
+      "name": "Blockchain Ventures",
+      "type": "Lead",
+      "round": "Seed"
+    },
+    {
+      "name": "Crypto Angels",
+      "type": "Pre-Seed",
+      "round": "Pre-Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "1 Investor seat", "1 Independent director"]
+}

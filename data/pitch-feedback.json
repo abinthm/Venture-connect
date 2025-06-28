@@ -1,0 +1,42 @@
+[
+  {
+    "reviewer": "Rajesh Kumar",
+    "feedback": "Strong technical foundation, but need clearer go-to-market strategy. Consider adding more market validation data.",
+    "date": "2024-06-25",
+    "type": "Technical Review",
+    "rating": 4,
+    "ai_analysis": "Feedback indicates strong product-market fit concerns. Recommend focusing on customer validation metrics."
+  },
+  {
+    "reviewer": "Priya Sharma",
+    "feedback": "Impressive growth metrics and strong team. Would like to see more details on competitive landscape and differentiation.",
+    "date": "2024-06-22",
+    "type": "Growth Analysis",
+    "rating": 5,
+    "ai_analysis": "Positive sentiment detected. Competitive analysis section needs strengthening for next pitch."
+  },
+  {
+    "reviewer": "Anita Desai",
+    "feedback": "Pitch is promising, but financial projections lack detail. Please include scenario-based forecasts.",
+    "date": "2024-06-18",
+    "type": "Financial Review",
+    "rating": 3,
+    "ai_analysis": "Financial projections are too high-level. Add breakdowns and scenario analysis for credibility."
+  },
+  {
+    "reviewer": "Vikram Joshi",
+    "feedback": "Excellent team and vision. Would recommend adding more customer testimonials to build trust.",
+    "date": "2024-06-23",
+    "type": "Market Review",
+    "rating": 5,
+    "ai_analysis": "Strong team and vision. Customer validation will further strengthen the pitch."
+  },
+  {
+    "reviewer": "Neha Agarwal",
+    "feedback": "Good pitch structure, but competitive differentiation is not clear. Highlight your unique value proposition.",
+    "date": "2024-06-21",
+    "type": "Competitor Analysis",
+    "rating": 4,
+    "ai_analysis": "Clarify what sets you apart from competitors. Add a differentiation matrix if possible."
+  }
+] 

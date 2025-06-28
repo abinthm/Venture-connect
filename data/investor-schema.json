@@ -1,0 +1,208 @@
+{
+  "investor_profile": {
+    "id": "INV_001",
+    "basic_profile": {
+      "name": "Sarah Chen",
+      "organization_name": "Chen Ventures",
+      "email": "sarah@chenventures.com",
+      "phone": "+1-555-0123",
+      "location": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "USA"
+      },
+      "investor_type": "Individual Angel",
+      "website": "https://chenventures.com",
+      "linkedin": "https://linkedin.com/in/sarahchen",
+      "profile_image": "/placeholder.svg?height=80&width=80"
+    },
+    "investment_capacity": {
+      "minimum_investment": 25000,
+      "maximum_investment": 250000,
+      "typical_check_size": 50000,
+      "available_capital_12_months": 500000,
+      "currency": "USD",
+      "follow_on_reserves": true,
+      "co_investment_comfortable": true
+    },
+    "investment_preferences": {
+      "categories": [
+        "AgriTech",
+        "FinTech",
+        "HealthTech",
+        "SaaS",
+        "AI/ML"
+      ],
+      "stage_preference": [
+        "Seed",
+        "Series A"
+      ],
+      "business_models": [
+        "B2B",
+        "B2B + B2G",
+        "SaaS"
+      ],
+      "geographic_preference": {
+        "primary_regions": [
+          "North America",
+          "India",
+          "Southeast Asia"
+        ],
+        "remote_investment_comfort": 4
+      },
+      "valuation_range": {
+        "minimum": 5000000,
+        "maximum": 100000000,
+        "sweet_spot": 25000000
+      }
+    },
+    "financial_criteria": {
+      "revenue_requirements": {
+        "minimum_monthly_revenue": 100000,
+        "minimum_annual_revenue": 1000000,
+        "growth_rate_expectation": 100,
+        "revenue_multiple_comfort": 15
+      },
+      "key_metrics_focus": [
+        "monthlyRevenue",
+        "growthRate",
+        "customers",
+        "runway",
+        "ltvCacRatio"
+      ],
+      "unit_economics_requirements": {
+        "minimum_gross_margin": 60,
+        "maximum_cac_payback": 12,
+        "minimum_ltv_cac_ratio": 3
+      },
+      "runway_preference": {
+        "minimum_months": 12,
+        "comfortable_range": "18-36"
+      }
+    },
+    "team_preferences": {
+      "founder_experience_required": true,
+      "minimum_team_size": 3,
+      "domain_expertise_important": true,
+      "previous_startup_experience": "preferred",
+      "technical_cofounder_required": true
+    },
+    "market_criteria": {
+      "minimum_tam": 1000000000,
+      "minimum_sam": 100000000,
+      "market_maturity": ["emerging", "growing"],
+      "competitive_landscape": "moderate_competition_acceptable",
+      "market_share_expectations": 5
+    },
+    "risk_expectations": {
+      "risk_tolerance": 4,
+      "risk_tolerance_description": "Comfortable with early revenue, growing market opportunities",
+      "expected_returns": {
+        "target_roi": "10-20x",
+        "investment_horizon": "5-7 years"
+      },
+      "acceptable_loss_scenarios": ["product_risk", "market_risk"],
+      "deal_breakers": ["regulatory_heavy", "capital_intensive"]
+    },
+    "involvement_preferences": {
+      "involvement_level": "Regular mentoring/advisory role",
+      "board_participation_interest": false,
+      "mentoring_time_commitment": "2-4 hours per month",
+      "expertise_areas": [
+        "Go-to-market strategy",
+        "Enterprise sales",
+        "Product development",
+        "Fundraising",
+        "Team building"
+      ],
+      "network_value": {
+        "customer_connections": true,
+        "investor_network": true,
+        "talent_network": true,
+        "strategic_partnerships": true
+      }
+    },
+    "due_diligence_requirements": {
+      "financial_statements_required": true,
+      "technical_review": true,
+      "reference_checks": true,
+      "market_validation": true,
+      "legal_review": true,
+      "timeline_days": 30
+    },
+    "investment_experience": {
+      "years_investing": "5-10",
+      "number_of_investments": 12,
+      "successful_exits": 4,
+      "portfolio_companies": [
+        {
+          "name": "FarmTech India",
+          "category": "AgriTech",
+          "stage_invested": "Seed",
+          "current_status": "Series B",
+          "outcome": "active"
+        },
+        {
+          "name": "PayFlow Solutions",
+          "category": "FinTech",
+          "stage_invested": "Series A",
+          "current_status": "Acquired",
+          "outcome": "exit_3x"
+        }
+      ],
+      "professional_background": [
+        "Technology",
+        "Finance",
+        "Operations"
+      ],
+      "industry_expertise": [
+        "AgriTech",
+        "Enterprise Software",
+        "Rural Markets"
+      ]
+    },
+    "deal_flow_preferences": {
+      "deals_per_quarter": "2-3",
+      "referral_sources": ["accelerators", "other_investors", "entrepreneurs"],
+      "pitch_format_preference": ["deck_review", "demo", "financial_models"],
+      "communication_preference": "email",
+      "meeting_availability": "weekdays_evening"
+    }
+  },
+  "matching_algorithm_data": {
+    "category_weights": {
+      "AgriTech": 10,
+      "FinTech": 8,
+      "HealthTech": 7,
+      "SaaS": 6,
+      "AI/ML": 5
+    },
+    "stage_weights": {
+      "Seed": 10,
+      "Series A": 8,
+      "Pre-Seed": 3
+    },
+    "geographic_weights": {
+      "North America": 10,
+      "India": 9,
+      "Southeast Asia": 7
+    },
+    "financial_score_weights": {
+      "revenue_match": 0.3,
+      "growth_rate": 0.25,
+      "unit_economics": 0.2,
+      "runway": 0.15,
+      "valuation": 0.1
+    }
+  },
+  "metadata": {
+    "profile_created": "2025-06-28T10:30:00Z",
+    "last_updated": "2025-06-28T10:30:00Z",
+    "profile_completeness": 95,
+    "verification_status": "email_verified",
+    "matching_algorithm_version": "v1.2",
+    "active_status": true,
+    "last_investment_date": "2024-11-15",
+    "current_pipeline": 3
+  }
+}
