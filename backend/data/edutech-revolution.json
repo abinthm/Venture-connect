@@ -1,0 +1,278 @@
+{
+  "id": 4,
+  "companyName": "EduTech Revolution",
+  "tagline": "Personalized Learning with AI Tutors",
+  "valuation": 1560000000,
+  "description": "EduTech Revolution is transforming K-12 education through AI-powered personalized learning. Our platform adapts to each student's learning style, pace, and preferences, providing customized curriculum and real-time performance analytics. With 200+ school partnerships and 150K+ students, we're making quality education accessible and effective for every child.",
+  "usp": "The only AI-powered learning platform that provides truly personalized education with adaptive curriculum, real-time analytics, and 95% learning improvement rates.",
+  "businessModel": "B2B + B2C",
+  "category": "EdTech",
+  "website": "https://edutechrevolution.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2021",
+  "headquarters": "Gurgaon, Haryana",
+  "stage": "Series A",
+  "keyMetrics": {
+    "monthlyRevenue": 3750000,
+    "annualRevenue": 45000000,
+    "customers": 200,
+    "cashInBank": 420000000,
+    "runway": "15 months",
+    "growthRate": {
+      "revenue": 95,
+      "schools": 25,
+      "students": 30
+    }
+  },
+  "financials": {
+    "2021": {
+      "revenue": 8000000,
+      "grossProfit": 5600000,
+      "operatingExpenses": 15000000,
+      "ebitda": -9400000,
+      "depreciation": 500000,
+      "ebit": -9900000,
+      "interestExpense": 100000,
+      "profitBeforeTax": -10000000,
+      "taxExpense": 0,
+      "profitAfterTax": -10000000
+    },
+    "2022": {
+      "revenue": 22000000,
+      "grossProfit": 15400000,
+      "operatingExpenses": 35000000,
+      "ebitda": -19600000,
+      "depreciation": 1000000,
+      "ebit": -20600000,
+      "interestExpense": 200000,
+      "profitBeforeTax": -20800000,
+      "taxExpense": 0,
+      "profitAfterTax": -20800000
+    },
+    "2023": {
+      "revenue": 45000000,
+      "grossProfit": 31500000,
+      "operatingExpenses": 55000000,
+      "ebitda": -23500000,
+      "depreciation": 1500000,
+      "ebit": -25000000,
+      "interestExpense": 300000,
+      "profitBeforeTax": -25300000,
+      "taxExpense": 0,
+      "profitAfterTax": -25300000
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 87750000,
+      "grossProfit": 61425000,
+      "ebitda": -10000000
+    },
+    "2025": {
+      "revenue": 171112500,
+      "grossProfit": 119787500,
+      "ebitda": 35000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 500000000,
+    "currentLiabilities": 80000000,
+    "inventory": 5000000,
+    "accountsReceivable": 15000000,
+    "accountsPayable": 10000000,
+    "totalAssets": 600000000,
+    "totalLiabilities": 100000000,
+    "shareholderEquity": 500000000
+  },
+  "unitEconomics": {
+    "cac": 15000,
+    "ltv": 600000,
+    "averageSellingPrice": 22500,
+    "grossMargin": 70,
+    "ltvCacRatio": 40
+  },
+  "marketPosition": {
+    "marketShare": 2.1,
+    "brandRecognition": 35,
+    "customerSatisfaction": 88,
+    "totalAddressableMarket": 15000000000000,
+    "serviceableAddressableMarket": 3000000000000
+  },
+  "team": [
+    {
+      "name": "Amit Sharma",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Former Byju's VP, 12+ years in EdTech, IIT Delhi alumnus"
+    },
+    {
+      "name": "Neha Agarwal",
+      "role": "CPO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 30,
+      "bio": "Ex-Khan Academy product lead, Stanford Education PhD"
+    },
+    {
+      "name": "Dr. Rajesh Gupta",
+      "role": "Head of AI/ML",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 12,
+      "bio": "Former Microsoft Research scientist, AI in Education expert"
+    },
+    {
+      "name": "Priya Mehta",
+      "role": "Head of Content",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 8,
+      "bio": "Former NCERT curriculum designer, 15+ years in education"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Apr 2021",
+      "amount": "₹2.5 Cr",
+      "valuation": "₹15 Cr",
+      "leadInvestor": "EdTech Angels",
+      "useOfFunds": "Product development, initial content creation"
+    },
+    {
+      "round": "Seed",
+      "date": "Nov 2021",
+      "amount": "₹12 Cr",
+      "valuation": "₹60 Cr",
+      "leadInvestor": "Learning Ventures",
+      "useOfFunds": "AI development, school partnerships"
+    },
+    {
+      "round": "Series A",
+      "date": "Aug 2023",
+      "amount": "₹35 Cr",
+      "valuation": "₹156 Cr",
+      "leadInvestor": "Global Education Fund",
+      "useOfFunds": "Market expansion, advanced AI features"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Apr 2021",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Jul 2021",
+      "event": "First AI Tutor Prototype",
+      "type": "product"
+    },
+    {
+      "date": "Oct 2021",
+      "event": "Pilot with 10 Schools",
+      "type": "growth"
+    },
+    {
+      "date": "Nov 2021",
+      "event": "Seed Funding Raised",
+      "type": "funding"
+    },
+    {
+      "date": "Feb 2022",
+      "event": "50 School Partnerships",
+      "type": "growth"
+    },
+    {
+      "date": "Jun 2022",
+      "event": "Personalized Learning Engine Launch",
+      "type": "product"
+    },
+    {
+      "date": "Dec 2022",
+      "event": "100K Students on Platform",
+      "type": "growth"
+    },
+    {
+      "date": "Aug 2023",
+      "event": "Series A Funding",
+      "type": "funding"
+    },
+    {
+      "date": "Jan 2024",
+      "event": "200 School Partnerships",
+      "type": "growth"
+    }
+  ],
+  "achievements": ["200+ School Partnerships", "150K+ Students", "95% Learning Improvement", "AI Tutor 4.8/5 Rating"],
+  "marketSplit": {
+    "segments": [
+      {
+        "name": "K-12 Schools",
+        "value": 60,
+        "color": "#0088FE"
+      },
+      {
+        "name": "Individual Students",
+        "value": 25,
+        "color": "#00C49F"
+      },
+      {
+        "name": "Coaching Centers",
+        "value": 10,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "Corporate Training",
+        "value": 5,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct School Sales",
+      "percentage": 60,
+      "revenue": 27000000
+    },
+    {
+      "channel": "Online B2C Platform",
+      "percentage": 25,
+      "revenue": 11250000
+    },
+    {
+      "channel": "Partner Network",
+      "percentage": 15,
+      "revenue": 6750000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "6-minute presentation showcasing our AI-powered personalized learning platform and impact on student outcomes."
+  },
+  "currentFunding": {
+    "targetRound": "Series B",
+    "targetAmount": "₹31.2 Cr",
+    "committed": "₹10.9 Cr",
+    "progress": 35
+  },
+  "investors": [
+    {
+      "name": "Global Education Fund",
+      "type": "Lead",
+      "round": "Series A"
+    },
+    {
+      "name": "Learning Ventures",
+      "type": "Seed",
+      "round": "Seed"
+    },
+    {
+      "name": "EdTech Angels",
+      "type": "Pre-Seed",
+      "round": "Pre-Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "1 Investor seat", "1 Independent director"]
+}

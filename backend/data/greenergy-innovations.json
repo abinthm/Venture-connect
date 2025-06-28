@@ -1,0 +1,253 @@
+{
+  "id": 2,
+  "companyName": "GreenEnergy Innovations",
+  "tagline": "Smart Solar Solutions for Urban Infrastructure",
+  "valuation": 832000000,
+  "description": "GreenEnergy Innovations is revolutionizing urban solar infrastructure with next-generation solar panels that deliver 30% higher efficiency than traditional solutions. Our integrated IoT monitoring system provides real-time performance analytics and predictive maintenance, making solar energy more reliable and cost-effective for smart cities across India.",
+  "usp": "The only solar solution combining 30% higher efficiency panels with AI-powered IoT monitoring, reducing maintenance costs by 50% while maximizing energy output.",
+  "businessModel": "B2B + B2G",
+  "category": "CleanTech",
+  "website": "https://greenenergy.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2022",
+  "headquarters": "Pune, Maharashtra",
+  "stage": "Seed",
+  "keyMetrics": {
+    "monthlyRevenue": 2750000,
+    "annualRevenue": 33000000,
+    "customers": 45,
+    "cashInBank": 120000000,
+    "runway": "24 months",
+    "growthRate": {
+      "revenue": 120,
+      "customers": 25,
+      "installations": 15
+    }
+  },
+  "financials": {
+    "2022": {
+      "revenue": 2000000,
+      "grossProfit": 1400000,
+      "operatingExpenses": 8000000,
+      "ebitda": -6600000,
+      "depreciation": 200000,
+      "ebit": -6800000,
+      "interestExpense": 100000,
+      "profitBeforeTax": -6900000,
+      "taxExpense": 0,
+      "profitAfterTax": -6900000
+    },
+    "2023": {
+      "revenue": 15000000,
+      "grossProfit": 10500000,
+      "operatingExpenses": 18000000,
+      "ebitda": -7500000,
+      "depreciation": 500000,
+      "ebit": -8000000,
+      "interestExpense": 200000,
+      "profitBeforeTax": -8200000,
+      "taxExpense": 0,
+      "profitAfterTax": -8200000
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 33000000,
+      "grossProfit": 23100000,
+      "ebitda": -1900000
+    },
+    "2025": {
+      "revenue": 72600000,
+      "grossProfit": 50820000,
+      "ebitda": 15000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 150000000,
+    "currentLiabilities": 30000000,
+    "inventory": 45000000,
+    "accountsReceivable": 18000000,
+    "accountsPayable": 12000000,
+    "totalAssets": 200000000,
+    "totalLiabilities": 50000000,
+    "shareholderEquity": 150000000
+  },
+  "unitEconomics": {
+    "cac": 111111,
+    "ltv": 3333333,
+    "averageSellingPrice": 733333,
+    "grossMargin": 70,
+    "ltvCacRatio": 30
+  },
+  "marketPosition": {
+    "marketShare": 0.8,
+    "brandRecognition": 25,
+    "customerSatisfaction": 89,
+    "totalAddressableMarket": 12500000000000,
+    "serviceableAddressableMarket": 2500000000000
+  },
+  "team": [
+    {
+      "name": "Arjun Mehta",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 40,
+      "bio": "Former Tesla engineer, 12+ years in renewable energy"
+    },
+    {
+      "name": "Sneha Patel",
+      "role": "CTO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Ex-ISRO scientist, PhD in Solar Technology from IIT Bombay"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "role": "Head of Operations",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 8,
+      "bio": "Former Tata Power executive, 10+ years in energy sector"
+    },
+    {
+      "name": "Priya Singh",
+      "role": "Head of Sales",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 7,
+      "bio": "Ex-Adani Green Energy, scaled renewable energy sales teams"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Mar 2022",
+      "amount": "₹1.5 Cr",
+      "valuation": "₹12 Cr",
+      "leadInvestor": "Climate Angels",
+      "useOfFunds": "Product development, prototype testing"
+    },
+    {
+      "round": "Seed",
+      "date": "Nov 2023",
+      "amount": "₹8.5 Cr",
+      "valuation": "₹42.5 Cr",
+      "leadInvestor": "Green Ventures Fund",
+      "useOfFunds": "Manufacturing setup, team expansion"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Mar 2022",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Jun 2022",
+      "event": "First Solar Panel Prototype",
+      "type": "product"
+    },
+    {
+      "date": "Sep 2022",
+      "event": "Patent Filed for Smart Solar Tech",
+      "type": "product"
+    },
+    {
+      "date": "Nov 2022",
+      "event": "Seed Funding Raised",
+      "type": "funding"
+    },
+    {
+      "date": "Feb 2023",
+      "event": "First Commercial Installation",
+      "type": "growth"
+    },
+    {
+      "date": "May 2023",
+      "event": "Partnership with Pune Smart City",
+      "type": "partnership"
+    },
+    {
+      "date": "Aug 2023",
+      "event": "Reached 25 Installations",
+      "type": "growth"
+    },
+    {
+      "date": "Dec 2023",
+      "event": "Series A Funding Target",
+      "type": "funding"
+    }
+  ],
+  "achievements": ["30% Higher Solar Efficiency", "45+ Installations", "Smart City Partnerships", "Patent Filed"],
+  "marketSplit": {
+    "geographic": [
+      {
+        "name": "Maharashtra",
+        "value": 35,
+        "color": "#0088FE"
+      },
+      {
+        "name": "Karnataka",
+        "value": 25,
+        "color": "#00C49F"
+      },
+      {
+        "name": "Gujarat",
+        "value": 20,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "Tamil Nadu",
+        "value": 20,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct B2B Sales",
+      "percentage": 50,
+      "revenue": 7500000
+    },
+    {
+      "channel": "Government Contracts",
+      "percentage": 35,
+      "revenue": 5250000
+    },
+    {
+      "channel": "Channel Partners",
+      "percentage": 15,
+      "revenue": 2250000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "4-minute presentation showcasing our revolutionary solar technology and smart city partnerships."
+  },
+  "currentFunding": {
+    "targetRound": "Series A",
+    "targetAmount": "₹20.8 Cr",
+    "committed": "₹5.2 Cr",
+    "progress": 25
+  },
+  "investors": [
+    {
+      "name": "Green Ventures Fund",
+      "type": "Lead",
+      "round": "Seed"
+    },
+    {
+      "name": "Climate Angels",
+      "type": "Pre-Seed",
+      "round": "Pre-Seed"
+    },
+    {
+      "name": "Sustainability Partners",
+      "type": "Strategic",
+      "round": "Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "1 Investor seat", "1 Independent director"]
+}

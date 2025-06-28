@@ -1,0 +1,248 @@
+{
+  "id": 6,
+  "companyName": "AgriTech Solutions",
+  "tagline": "Smart Farming with IoT & AI",
+  "valuation": 936000000,
+  "description": "AgriTech Solutions is revolutionizing Indian agriculture through IoT sensors, AI-powered crop monitoring, and precision farming techniques. Our platform helps 5000+ farmers increase crop yields by 35% while reducing water usage by 40%. We're building the future of sustainable farming with data-driven insights and smart agricultural practices.",
+  "usp": "The only AgriTech platform combining IoT sensors, AI crop prediction, and precision farming to deliver 35% yield increase and 40% water savings for farmers.",
+  "businessModel": "B2B + B2G",
+  "category": "AgriTech",
+  "website": "https://agritechsolutions.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2022",
+  "headquarters": "Nashik, Maharashtra",
+  "stage": "Seed",
+  "keyMetrics": {
+    "monthlyRevenue": 1500000,
+    "annualRevenue": 18000000,
+    "customers": 5000,
+    "cashInBank": 156000000,
+    "runway": "22 months",
+    "growthRate": {
+      "revenue": 260,
+      "farmers": 500,
+      "sensors": 1000
+    }
+  },
+  "financials": {
+    "2022": {
+      "revenue": 5000000,
+      "grossProfit": 3500000,
+      "operatingExpenses": 12000000,
+      "ebitda": -8500000,
+      "depreciation": 500000,
+      "ebit": -9000000,
+      "interestExpense": 200000,
+      "profitBeforeTax": -9200000,
+      "taxExpense": 0,
+      "profitAfterTax": -9200000
+    },
+    "2023": {
+      "revenue": 18000000,
+      "grossProfit": 12600000,
+      "operatingExpenses": 28000000,
+      "ebitda": -15400000,
+      "depreciation": 1000000,
+      "ebit": -16400000,
+      "interestExpense": 300000,
+      "profitBeforeTax": -16700000,
+      "taxExpense": 0,
+      "profitAfterTax": -16700000
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 42000000,
+      "grossProfit": 29400000,
+      "ebitda": -5000000
+    },
+    "2025": {
+      "revenue": 89250000,
+      "grossProfit": 62475000,
+      "ebitda": 20000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 180000000,
+    "currentLiabilities": 24000000,
+    "inventory": 8000000,
+    "accountsReceivable": 6000000,
+    "accountsPayable": 4000000,
+    "totalAssets": 200000000,
+    "totalLiabilities": 30000000,
+    "shareholderEquity": 170000000
+  },
+  "unitEconomics": {
+    "cac": 3600,
+    "ltv": 36000,
+    "averageSellingPrice": 3000,
+    "grossMargin": 70,
+    "ltvCacRatio": 10
+  },
+  "marketPosition": {
+    "marketShare": 1.2,
+    "brandRecognition": 25,
+    "customerSatisfaction": 92,
+    "totalAddressableMarket": 25000000000000,
+    "serviceableAddressableMarket": 5000000000000
+  },
+  "team": [
+    {
+      "name": "Rajesh Kumar",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 45,
+      "bio": "Former John Deere executive, 20+ years in agriculture technology"
+    },
+    {
+      "name": "Dr. Priya Singh",
+      "role": "CTO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Agricultural scientist, PhD from IARI, IoT specialist"
+    },
+    {
+      "name": "Suresh Patel",
+      "role": "Head of Operations",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 10,
+      "bio": "Former Mahindra Agri head, rural market expert"
+    },
+    {
+      "name": "Kavita Sharma",
+      "role": "Head of Data Science",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 5,
+      "bio": "Ex-Microsoft AI researcher, agricultural data analytics"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Mar 2022",
+      "amount": "₹3 Cr",
+      "valuation": "₹18 Cr",
+      "leadInvestor": "AgriTech Angels",
+      "useOfFunds": "IoT device development, pilot programs"
+    },
+    {
+      "round": "Seed",
+      "date": "Jan 2024",
+      "amount": "₹15 Cr",
+      "valuation": "₹75 Cr",
+      "leadInvestor": "Rural Innovation Fund",
+      "useOfFunds": "Scale operations, expand to 5 states"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Mar 2022",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Jun 2022",
+      "event": "First IoT Sensors Deployed",
+      "type": "product"
+    },
+    {
+      "date": "Sep 2022",
+      "event": "100 Farmers Onboarded",
+      "type": "growth"
+    },
+    {
+      "date": "Jan 2023",
+      "event": "Seed Funding Raised",
+      "type": "funding"
+    },
+    {
+      "date": "Apr 2023",
+      "event": "AI Crop Prediction Launch",
+      "type": "product"
+    },
+    {
+      "date": "Aug 2023",
+      "event": "1000+ Farmers Network",
+      "type": "growth"
+    },
+    {
+      "date": "Dec 2023",
+      "event": "Government Partnership",
+      "type": "partnership"
+    },
+    {
+      "date": "Mar 2024",
+      "event": "5000+ Farmers Milestone",
+      "type": "growth"
+    }
+  ],
+  "achievements": ["5000+ Farmers Network", "35% Yield Increase", "40% Water Savings", "Government Partnership"],
+  "marketSplit": {
+    "segments": [
+      {
+        "name": "Precision Farming",
+        "value": 50,
+        "color": "#0088FE"
+      },
+      {
+        "name": "Crop Monitoring",
+        "value": 30,
+        "color": "#00C49F"
+      },
+      {
+        "name": "Supply Chain",
+        "value": 15,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "Weather Analytics",
+        "value": 5,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct Farmer Sales",
+      "percentage": 60,
+      "revenue": 10800000
+    },
+    {
+      "channel": "Government Partnerships",
+      "percentage": 25,
+      "revenue": 4500000
+    },
+    {
+      "channel": "Agri Cooperatives",
+      "percentage": 15,
+      "revenue": 2700000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "7-minute presentation showcasing our IoT-enabled smart farming solutions and farmer success stories."
+  },
+  "currentFunding": {
+    "targetRound": "Series A",
+    "targetAmount": "₹40 Cr",
+    "committed": "₹12 Cr",
+    "progress": 30
+  },
+  "investors": [
+    {
+      "name": "Rural Innovation Fund",
+      "type": "Lead",
+      "round": "Seed"
+    },
+    {
+      "name": "AgriTech Angels",
+      "type": "Pre-Seed",
+      "round": "Pre-Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "1 Investor seat", "1 Independent director"]
+}

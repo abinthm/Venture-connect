@@ -1,0 +1,34 @@
+{
+  "startups": [
+    {
+      "id": 1,
+      "name": "TechFlow Solutions",
+      "file": "techflow-solutions.json"
+    },
+    {
+      "id": 2,
+      "name": "GreenEnergy Innovations",
+      "file": "greenergy-innovations.json"
+    },
+    {
+      "id": 3,
+      "name": "HealthTech Pro",
+      "file": "healthtech-pro.json"
+    },
+    {
+      "id": 4,
+      "name": "EduTech Revolution",
+      "file": "edutech-revolution.json"
+    },
+    {
+      "id": 5,
+      "name": "FinTech Secure",
+      "file": "fintech-secure.json"
+    },
+    {
+      "id": 6,
+      "name": "AgriTech Solutions",
+      "file": "agritech-solutions.json"
+    }
+  ]
+}

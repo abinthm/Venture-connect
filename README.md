@@ -9,12 +9,14 @@ A modern web application that connects startups with potential investors using A
 - **Pitch Feedback System**: AI-enhanced feedback loop for pitch improvement
 - **Investor Onboarding**: Multi-step onboarding process for investor profiles
 - **Responsive Design**: Modern, mobile-friendly UI built with Next.js and Tailwind CSS
+- **API Integration**: Built-in API routes for AI insights and external service integration
 
 ## 🏗️ Architecture
 
 - **Frontend**: Next.js 14 with TypeScript, Tailwind CSS, and shadcn/ui components
-- **Backend**: Flask API with CORS support for AI-powered suggestions
+- **API Routes**: Next.js API routes for backend functionality
 - **Data**: JSON-based data storage with TypeScript interfaces
+- **External APIs**: Integration with external AI services via API routes
 
 ## 📁 Project Structure
 
@@ -22,6 +24,8 @@ A modern web application that connects startups with potential investors using A
 startup (3)/
 ├── app/                    # Next.js app directory
 │   ├── api/               # API routes
+│   │   ├── ai-insight/    # AI insight endpoint
+│   │   └── investors/     # Investor data endpoint
 │   ├── dashboard/         # Startup dashboards
 │   ├── investor-onboarding/ # Investor onboarding flow
 │   ├── matching/          # Smart matching page
@@ -30,10 +34,17 @@ startup (3)/
 │   ├── ui/               # shadcn/ui components
 │   └── investor-onboarding/ # Onboarding step components
 ├── data/                 # JSON data files
+│   ├── startups/         # Startup profile data
+│   ├── investor-schema.json
+│   └── pitch-feedback.json
 ├── lib/                  # Utility functions and algorithms
-├── backend/              # Flask backend
-│   ├── app.py           # Main Flask application
-│   └── requirements.txt # Python dependencies
+│   ├── matching-algorithm.ts
+│   ├── startup-data.ts
+│   └── utils.ts
+├── backend/              # Backend utilities and data
+│   ├── data/            # Additional backend data
+│   ├── test.ipynb       # Jupyter notebook for testing
+│   └── requirements.txt # Python dependencies (for future use)
 └── public/              # Static assets
 ```
 
@@ -42,7 +53,6 @@ startup (3)/
 ### Prerequisites
 
 - Node.js 18+ and npm/pnpm
-- Python 3.8+ and pip
 - Git
 
 ### Frontend Setup (Next.js)
@@ -60,31 +70,12 @@ startup (3)/
 3. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-### Backend Setup (Flask)
+### API Integration
 
-1. **Navigate to backend directory:**
-   ```bash
-   cd backend
-   ```
+The application includes built-in API routes that can be extended to integrate with external services:
 
-2. **Create virtual environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Python dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Flask server:**
-   ```bash
-   python app.py
-   ```
-
-5. **Verify backend is running:**
-   The server should start on [http://127.0.0.1:5000](http://127.0.0.1:5000)
+- `/api/ai-insight` - AI-powered insights and recommendations
+- `/api/investors` - Investor data management
 
 ## 🎯 Key Features Explained
 
@@ -92,13 +83,14 @@ startup (3)/
 - Analyzes startup and investor profiles across multiple dimensions
 - Calculates compatibility scores based on industry, stage, location, and preferences
 - Provides AI-powered insights and recommendations
+- Real-time matching with advanced scoring algorithms
 
 ### 2. Startup Dashboards
-- **AgriTech Dashboard**: IoT-enabled smart farming solutions
-- **EduTech Dashboard**: Educational technology platforms
-- **FinTech Dashboard**: Financial technology innovations
-- **GreenEnergy Dashboard**: Sustainable energy solutions
-- **HealthTech Dashboard**: Healthcare technology platforms
+- **AgriTech Dashboard**: IoT-enabled smart farming solutions with real-time metrics
+- **EduTech Dashboard**: Educational technology platforms with growth analytics
+- **FinTech Dashboard**: Financial technology innovations with security metrics
+- **GreenEnergy Dashboard**: Sustainable energy solutions with environmental impact
+- **HealthTech Dashboard**: Healthcare technology platforms with compliance tracking
 
 ### 3. Investor Onboarding
 12-step comprehensive onboarding process:
@@ -116,10 +108,11 @@ startup (3)/
 - Review & Submit
 
 ### 4. AI-Enhanced Pitch Feedback
-- Analyzes investor feedback using AI
+- Analyzes investor feedback using AI algorithms
 - Generates targeted improvement suggestions
 - Provides priority-based recommendations
 - Tracks feedback history and trends
+- Integrates with external AI services for enhanced insights
 
 ## 🔧 Configuration
 
@@ -127,28 +120,28 @@ startup (3)/
 Create a `.env.local` file in the root directory:
 
 ```env
-NEXT_PUBLIC_API_URL=http://127.0.0.1:5000
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+NEXT_PUBLIC_EXTERNAL_AI_URL=http://127.0.0.1:5000
 ```
 
 ### Data Files
-- `data/startups/`: Startup profile data
-- `data/investor-schema.json`: Investor profile schema
-- `data/pitch-feedback.json`: Sample pitch feedback data
+- `data/startups/`: Comprehensive startup profile data with metrics
+- `data/investor-schema.json`: Investor profile schema and validation
+- `data/pitch-feedback.json`: Sample pitch feedback data for testing
 
 ## 🚀 Deployment
 
 ### Frontend Deployment
 The Next.js app can be deployed to:
-- Vercel (recommended)
-- Netlify
-- AWS Amplify
+- **Vercel** (recommended) - Zero-config deployment with automatic API routes
+- **Netlify** - Static site generation with serverless functions
+- **AWS Amplify** - Full-stack deployment with backend integration
 
-### Backend Deployment
-The Flask backend can be deployed to:
-- Heroku
-- AWS Elastic Beanstalk
-- Google Cloud Run
-- DigitalOcean App Platform
+### API Routes Deployment
+Next.js API routes are automatically deployed with the frontend:
+- Serverless functions on Vercel
+- Netlify Functions on Netlify
+- AWS Lambda on AWS Amplify
 
 ## 🧪 Testing
 
@@ -159,15 +152,20 @@ pnpm test
 
 # Run tests in watch mode
 pnpm test:watch
+
+# Run linting
+pnpm lint
 ```
 
-### Backend Testing
+### API Testing
 ```bash
-# Navigate to backend directory
-cd backend
+# Test API routes locally
+curl http://localhost:3000/api/ai-insight
 
-# Run Flask tests
-python -m pytest
+# Test with sample data
+curl -X POST http://localhost:3000/api/ai-insight \
+  -H "Content-Type: application/json" \
+  -d '{"query": "test query"}'
 ```
 
 ## 📊 Data Structure
@@ -184,6 +182,7 @@ interface Startup {
   founders: Founder[]
   metrics: Metrics
   financials: Financials
+  dashboardPath: string
 }
 ```
 
@@ -195,8 +194,38 @@ interface InvestorProfile {
   investmentCapacity: InvestmentCapacity
   preferences: InvestmentPreferences
   criteria: MarketCriteria
+  experience: Experience
+  riskExpectations: RiskExpectations
 }
 ```
+
+### Match Result
+```typescript
+interface MatchResult {
+  investor: InvestorProfile
+  overallScore: number
+  categoryScores: {
+    industry: number
+    stage: number
+    location: number
+    preferences: number
+  }
+  recommendation: string
+  insights: string[]
+}
+```
+
+## 🔌 API Endpoints
+
+### AI Insight Endpoint
+- **POST** `/api/ai-insight`
+- Analyzes queries and provides AI-powered insights
+- Integrates with external AI services
+
+### Investors Endpoint
+- **GET** `/api/investors`
+- Returns investor profile data
+- Supports filtering and search
 
 ## 🤝 Contributing
 
@@ -224,6 +253,25 @@ If you encounter any issues:
 - [API Documentation](https://your-api-docs.com)
 - [Design System](https://your-design-system.com)
 
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/startup-investor-platform.git
+
+# Navigate to project directory
+cd startup-investor-platform
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+
+# Open in browser
+open http://localhost:3000
+```
+
 ---
 
-Built with ❤️ using Next.js, Flask, and AI-powered algorithms. 
+Built with ❤️ using Next.js, TypeScript, and AI-powered algorithms. 

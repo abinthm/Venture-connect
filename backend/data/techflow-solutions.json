@@ -1,0 +1,273 @@
+{
+  "id": 1,
+  "companyName": "TechFlow Solutions",
+  "tagline": "AI-Powered Business Analytics Platform",
+  "valuation": 2080000000,
+  "description": "TechFlow Solutions is revolutionizing how Indian businesses analyze and act on their data. Our AI-powered platform provides real-time insights, predictive analytics, and automated reporting that helps companies make data-driven decisions faster than ever before.",
+  "usp": "The only platform that combines real-time data processing with AI-driven insights, reducing analysis time by 90% while increasing accuracy by 40%.",
+  "businessModel": "SaaS",
+  "category": "B2B",
+  "website": "https://techflow.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2021",
+  "headquarters": "Bangalore, Karnataka",
+  "stage": "Series A",
+  "keyMetrics": {
+    "monthlyRevenue": 5666667,
+    "annualRevenue": 68000000,
+    "customers": 2847,
+    "cashInBank": 266666667,
+    "runway": "18 months",
+    "growthRate": {
+      "revenue": 60,
+      "customers": 18,
+      "mrr": 12
+    }
+  },
+  "financials": {
+    "2021": {
+      "revenue": 23300000,
+      "grossProfit": 18200000,
+      "operatingExpenses": 13866667,
+      "ebitda": 4333333,
+      "depreciation": 583333,
+      "ebit": 3750000,
+      "interestExpense": 166667,
+      "profitBeforeTax": 3583333,
+      "taxExpense": 916667,
+      "profitAfterTax": 2666667
+    },
+    "2022": {
+      "revenue": 37500000,
+      "grossProfit": 29250000,
+      "operatingExpenses": 21333333,
+      "ebitda": 7916667,
+      "depreciation": 1000000,
+      "ebit": 6916667,
+      "interestExpense": 250000,
+      "profitBeforeTax": 6666667,
+      "taxExpense": 1666667,
+      "profitAfterTax": 5000000
+    },
+    "2023": {
+      "revenue": 60000000,
+      "grossProfit": 46800000,
+      "operatingExpenses": 32800000,
+      "ebitda": 14000000,
+      "depreciation": 1500000,
+      "ebit": 12500000,
+      "interestExpense": 333333,
+      "profitBeforeTax": 12166667,
+      "taxExpense": 3083333,
+      "profitAfterTax": 9083333
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 100000000,
+      "grossProfit": 78000000,
+      "ebitda": 25000000
+    },
+    "2025": {
+      "revenue": 150000000,
+      "grossProfit": 117000000,
+      "ebitda": 45000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 350000000,
+    "currentLiabilities": 74166667,
+    "inventory": 20416667,
+    "accountsReceivable": 13000000,
+    "accountsPayable": 7416667,
+    "totalAssets": 566666667,
+    "totalLiabilities": 100000000,
+    "shareholderEquity": 466666667
+  },
+  "unitEconomics": {
+    "cac": 20417,
+    "ltv": 245000,
+    "averageSellingPrice": 7417,
+    "grossMargin": 78,
+    "ltvCacRatio": 12
+  },
+  "marketPosition": {
+    "marketShare": 2.3,
+    "brandRecognition": 34,
+    "customerSatisfaction": 92,
+    "totalAddressableMarket": 3750000000000,
+    "serviceableAddressableMarket": 683333333333
+  },
+  "team": [
+    {
+      "name": "Priya Sharma",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Former VP at Flipkart, 10+ years in tech leadership"
+    },
+    {
+      "name": "Arjun Patel",
+      "role": "CTO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 30,
+      "bio": "Ex-Ola engineer, AI/ML expert with 8 years experience"
+    },
+    {
+      "name": "Sneha Gupta",
+      "role": "Head of Sales",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 5,
+      "bio": "Former Paytm director, scaled teams from 5 to 50+"
+    },
+    {
+      "name": "Rohit Kumar",
+      "role": "Head of Product",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 8,
+      "bio": "Product leader from Zomato, launched 15+ successful features"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Jan 2021",
+      "amount": "₹2.1 Cr",
+      "valuation": "₹16.6 Cr",
+      "leadInvestor": "Angel Investors",
+      "useOfFunds": "Product development, initial team"
+    },
+    {
+      "round": "Seed",
+      "date": "Aug 2022",
+      "amount": "₹10 Cr",
+      "valuation": "₹66.6 Cr",
+      "leadInvestor": "Venture Capital Partners",
+      "useOfFunds": "Market expansion, team scaling"
+    },
+    {
+      "round": "Series A",
+      "date": "Mar 2024",
+      "amount": "₹41.6 Cr",
+      "valuation": "₹208 Cr",
+      "leadInvestor": "Growth Equity Fund",
+      "useOfFunds": "Pan-India expansion, R&D"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Jan 2021",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Mar 2021",
+      "event": "First Product Launch",
+      "type": "product"
+    },
+    {
+      "date": "Aug 2021",
+      "event": "Reached 1K Users",
+      "type": "growth"
+    },
+    {
+      "date": "Jan 2022",
+      "event": "Series Seed Funding",
+      "type": "funding"
+    },
+    {
+      "date": "Jun 2022",
+      "event": "Launched in South India",
+      "type": "expansion"
+    },
+    {
+      "date": "Dec 2022",
+      "event": "10K Users Milestone",
+      "type": "growth"
+    },
+    {
+      "date": "Mar 2023",
+      "event": "Strategic Partnership with TCS",
+      "type": "partnership"
+    },
+    {
+      "date": "Sep 2023",
+      "event": "Series A Funding",
+      "type": "funding"
+    }
+  ],
+  "achievements": ["Best AI Startup India 2023", "2,847+ Active Users", "15+ States", "Fortune 500 Indian Clients"],
+  "marketSplit": {
+    "geographic": [
+      {
+        "name": "North India",
+        "value": 45,
+        "color": "#0088FE"
+      },
+      {
+        "name": "South India",
+        "value": 30,
+        "color": "#00C49F"
+      },
+      {
+        "name": "West India",
+        "value": 20,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "East India",
+        "value": 5,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct Online",
+      "percentage": 60,
+      "revenue": 36000000
+    },
+    {
+      "channel": "Retail Partners",
+      "percentage": 25,
+      "revenue": 15000000
+    },
+    {
+      "channel": "B2B Sales",
+      "percentage": 15,
+      "revenue": 9000000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "3-minute pitch presentation highlighting our key value propositions and Indian market opportunity."
+  },
+  "currentFunding": {
+    "targetRound": "Series B",
+    "targetAmount": "₹83.3 Cr",
+    "committed": "₹29.2 Cr",
+    "progress": 35
+  },
+  "investors": [
+    {
+      "name": "Venture Capital Partners",
+      "type": "Lead",
+      "round": "Series A"
+    },
+    {
+      "name": "Growth Equity Fund",
+      "type": "Series A",
+      "round": "Series A"
+    },
+    {
+      "name": "Indian Angel Network",
+      "type": "Seed",
+      "round": "Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "2 Investor seats", "1 Independent director"]
+}

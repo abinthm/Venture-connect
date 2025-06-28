@@ -1,0 +1,296 @@
+{
+  "id": 3,
+  "companyName": "HealthTech Pro",
+  "tagline": "Telemedicine Platform Connecting Rural India",
+  "valuation": 4160000000,
+  "description": "HealthTech Pro is transforming rural healthcare delivery through our comprehensive telemedicine platform. We connect 500+ rural clinics with specialist doctors, provide AI-powered diagnostic assistance, and ensure medicine delivery to the last mile. Our platform has served over 2 million patients across rural India, making quality healthcare accessible and affordable.",
+  "usp": "The only telemedicine platform combining specialist consultations, AI diagnostics, and medicine delivery specifically designed for rural India's unique challenges.",
+  "businessModel": "B2B2C",
+  "category": "HealthTech",
+  "website": "https://healthtechpro.in",
+  "logo": "/placeholder.svg?height=80&width=80",
+  "founded": "2020",
+  "headquarters": "Hyderabad, Telangana",
+  "stage": "Series B",
+  "keyMetrics": {
+    "monthlyRevenue": 10000000,
+    "annualRevenue": 120000000,
+    "customers": 500,
+    "cashInBank": 680000000,
+    "runway": "20 months",
+    "growthRate": {
+      "revenue": 85,
+      "clinics": 50,
+      "patients": 100
+    }
+  },
+  "financials": {
+    "2021": {
+      "revenue": 25000000,
+      "grossProfit": 17500000,
+      "operatingExpenses": 35000000,
+      "ebitda": -17500000,
+      "depreciation": 1000000,
+      "ebit": -18500000,
+      "interestExpense": 200000,
+      "profitBeforeTax": -18700000,
+      "taxExpense": 0,
+      "profitAfterTax": -18700000
+    },
+    "2022": {
+      "revenue": 65000000,
+      "grossProfit": 45500000,
+      "operatingExpenses": 75000000,
+      "ebitda": -29500000,
+      "depreciation": 2000000,
+      "ebit": -31500000,
+      "interestExpense": 500000,
+      "profitBeforeTax": -32000000,
+      "taxExpense": 0,
+      "profitAfterTax": -32000000
+    },
+    "2023": {
+      "revenue": 120000000,
+      "grossProfit": 84000000,
+      "operatingExpenses": 140000000,
+      "ebitda": -56000000,
+      "depreciation": 3000000,
+      "ebit": -59000000,
+      "interestExpense": 800000,
+      "profitBeforeTax": -59800000,
+      "taxExpense": 0,
+      "profitAfterTax": -59800000
+    }
+  },
+  "projections": {
+    "2024": {
+      "revenue": 204000000,
+      "grossProfit": 142800000,
+      "ebitda": -20000000
+    },
+    "2025": {
+      "revenue": 377400000,
+      "grossProfit": 264180000,
+      "ebitda": 75000000
+    }
+  },
+  "balanceSheet": {
+    "currentAssets": 750000000,
+    "currentLiabilities": 70000000,
+    "inventory": 25000000,
+    "accountsReceivable": 35000000,
+    "accountsPayable": 20000000,
+    "totalAssets": 900000000,
+    "totalLiabilities": 100000000,
+    "shareholderEquity": 800000000
+  },
+  "unitEconomics": {
+    "cac": 60000,
+    "ltv": 2400000,
+    "averageSellingPrice": 24000,
+    "grossMargin": 70,
+    "ltvCacRatio": 40
+  },
+  "marketPosition": {
+    "marketShare": 3.2,
+    "brandRecognition": 45,
+    "customerSatisfaction": 92,
+    "totalAddressableMarket": 25000000000000,
+    "serviceableAddressableMarket": 5000000000000
+  },
+  "team": [
+    {
+      "name": "Dr. Kavita Singh",
+      "role": "CEO & Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 35,
+      "bio": "Former AIIMS doctor, 15+ years in rural healthcare"
+    },
+    {
+      "name": "Rohit Gupta",
+      "role": "CTO & Co-Founder",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 30,
+      "bio": "Ex-Google Health engineer, AI/ML expert in healthcare"
+    },
+    {
+      "name": "Dr. Amit Sharma",
+      "role": "Chief Medical Officer",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 10,
+      "bio": "Rural medicine specialist, 20+ years field experience"
+    },
+    {
+      "name": "Priya Patel",
+      "role": "Head of Operations",
+      "image": "/placeholder.svg?height=80&width=80",
+      "linkedin": "#",
+      "ownership": 8,
+      "bio": "Former Practo operations head, scaled healthcare platforms"
+    }
+  ],
+  "fundingHistory": [
+    {
+      "round": "Pre-Seed",
+      "date": "Jun 2020",
+      "amount": "₹3 Cr",
+      "valuation": "₹20 Cr",
+      "leadInvestor": "Healthcare Angels",
+      "useOfFunds": "Platform development, initial team"
+    },
+    {
+      "round": "Seed",
+      "date": "Mar 2021",
+      "amount": "₹15 Cr",
+      "valuation": "₹75 Cr",
+      "leadInvestor": "Healthtech Ventures",
+      "useOfFunds": "Rural expansion, AI development"
+    },
+    {
+      "round": "Series A",
+      "date": "Sep 2022",
+      "amount": "₹45 Cr",
+      "valuation": "₹225 Cr",
+      "leadInvestor": "Impact Healthcare Fund",
+      "useOfFunds": "Scale operations, medicine delivery network"
+    },
+    {
+      "round": "Series B",
+      "date": "Jan 2024",
+      "amount": "₹85 Cr",
+      "valuation": "₹416 Cr",
+      "leadInvestor": "Global Health Partners",
+      "useOfFunds": "Pan-India expansion, advanced AI diagnostics"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "Jun 2020",
+      "event": "Company Founded",
+      "type": "founding"
+    },
+    {
+      "date": "Sep 2020",
+      "event": "First Telemedicine Platform Launch",
+      "type": "product"
+    },
+    {
+      "date": "Dec 2020",
+      "event": "Reached 50 Rural Clinics",
+      "type": "growth"
+    },
+    {
+      "date": "Mar 2021",
+      "event": "Seed Funding Raised",
+      "type": "funding"
+    },
+    {
+      "date": "Jul 2021",
+      "event": "AI Diagnostic Tool Launch",
+      "type": "product"
+    },
+    {
+      "date": "Nov 2021",
+      "event": "200 Clinics Milestone",
+      "type": "growth"
+    },
+    {
+      "date": "Feb 2022",
+      "event": "Medicine Delivery Network Launch",
+      "type": "expansion"
+    },
+    {
+      "date": "Sep 2022",
+      "event": "Series A Funding",
+      "type": "funding"
+    },
+    {
+      "date": "Jan 2023",
+      "event": "500 Clinics Milestone",
+      "type": "growth"
+    },
+    {
+      "date": "Jun 2023",
+      "event": "2M Patients Served",
+      "type": "growth"
+    },
+    {
+      "date": "Jan 2024",
+      "event": "Series B Funding",
+      "type": "funding"
+    }
+  ],
+  "achievements": ["500+ Rural Clinics", "2M+ Patients Served", "95% AI Diagnostic Accuracy", "20 States Coverage"],
+  "marketSplit": {
+    "geographic": [
+      {
+        "name": "Rural North",
+        "value": 40,
+        "color": "#0088FE"
+      },
+      {
+        "name": "Rural South",
+        "value": 30,
+        "color": "#00C49F"
+      },
+      {
+        "name": "Rural West",
+        "value": 20,
+        "color": "#FFBB28"
+      },
+      {
+        "name": "Rural East",
+        "value": 10,
+        "color": "#FF8042"
+      }
+    ]
+  },
+  "salesChannels": [
+    {
+      "channel": "Direct Clinic Partnerships",
+      "percentage": 60,
+      "revenue": 72000000
+    },
+    {
+      "channel": "Government Contracts",
+      "percentage": 25,
+      "revenue": 30000000
+    },
+    {
+      "channel": "NGO Partnerships",
+      "percentage": 15,
+      "revenue": 18000000
+    }
+  ],
+  "pitchVideo": {
+    "url": "",
+    "description": "5-minute presentation highlighting our impact on rural healthcare and growth potential."
+  },
+  "currentFunding": {
+    "targetRound": "Series C",
+    "targetAmount": "₹62.4 Cr",
+    "committed": "₹28.1 Cr",
+    "progress": 45
+  },
+  "investors": [
+    {
+      "name": "Global Health Partners",
+      "type": "Lead",
+      "round": "Series B"
+    },
+    {
+      "name": "Impact Healthcare Fund",
+      "type": "Series A",
+      "round": "Series A"
+    },
+    {
+      "name": "Healthtech Ventures",
+      "type": "Seed",
+      "round": "Seed"
+    }
+  ],
+  "boardComposition": ["2 Founder seats", "2 Investor seats", "1 Independent director"]
+}
